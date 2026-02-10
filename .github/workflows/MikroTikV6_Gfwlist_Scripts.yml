@@ -32,6 +32,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
       - name: Commit and push changes
+        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
         run: |
           git add gfwlist_sld.txt gfwlist6_domain.rsc
           git commit -m "Auto update GFWList domains [skip ci]" || echo "No changes to commit"
