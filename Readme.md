@@ -487,6 +487,15 @@ add chain=prerouting protocol=tcp layer7-protocol=gfw-domains action=add-dst-to-
 
 ---
 
+## 🔗 相关项目
+
+- [GFWList 官方项目](https://github.com/gfwlist/gfwlist)
+- [MikroTik RouterOS 文档](https://help.mikrotik.com/docs/)
+- [RouterOS DNS 配置指南](https://help.mikrotik.com/docs/display/ROS/DNS)
+- [RouterOS v6 DNS 正则表达式](https://help.mikrotik.com/docs/display/ROS/DNS)
+
+---
+
 ## 🤝 贡献与支持
 
 欢迎提交 Issue 和 Pull Request！
@@ -498,33 +507,24 @@ add chain=prerouting protocol=tcp layer7-protocol=gfw-domains action=add-dst-to-
 
 **联系方式**：
 - GitHub Issues: [提交问题](https://github.com/CodiFelix/MikroTikV6_Gfwlist/issues)
-- Email: CodiFelix@FelixBlaze.com
-
-如果这个项目对您有帮助，请给个 Star ⭐！
+- Email: Codifelix@FelixBlaze.com
 
 ---
 
-## 📄 许可证
+## ⚖️ 许可证 (License)
 
-MIT License
+本项目采用 [MIT License](LICENSE) 授权。
 
 Copyright (c) 2026 FelixBlaze
 
-本项目仅供学习和研究使用，请遵守当地法律法规。
+> **注意：** 本项目仅供学习和研究使用，请在法律允许的范围内使用。作者不对任何因误用、非法使用或操作不当导致的后果承担法律责任。
 
 ---
 
-## 🔗 相关项目
-
-- [GFWList 官方项目](https://github.com/gfwlist/gfwlist)
-- [MikroTik RouterOS 文档](https://help.mikrotik.com/docs/)
-- [RouterOS DNS 配置指南](https://help.mikrotik.com/docs/display/ROS/DNS)
-- [RouterOS v6 DNS 正则表达式](https://help.mikrotik.com/docs/display/ROS/DNS)
-
----
+如果这个项目对您有帮助，请给个 Star ⭐！
 
 **最后更新**: 2026年2月10日  
 **脚本版本**: 2.0.0  
-**测试环境**: RouterOS v6.49+  
+**测试环境**: RouterOS v6.49  
 **作者**: CodiFelix
-**仓库**: https://github.com/CodiFelix
+**仓库**: https://github.com/CodiFelix/MikroTikV6_Gfwlist
