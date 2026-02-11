@@ -497,8 +497,8 @@ add chain=prerouting protocol=tcp layer7-protocol=gfw-domains action=add-dst-to-
 - 分享经验：Star 项目并分享给需要的人
 
 **联系方式**：
-- GitHub Issues: [提交问题](https://github.com/YOUR_USERNAME/YOUR_REPO/issues)
-- Email: your-email@example.com
+- GitHub Issues: [提交问题](https://github.com/CodiFelix/MikroTikV6_Gfwlist/issues)
+- Email: CodiFelix@FelixBlaze.com
 
 如果这个项目对您有帮助，请给个 Star ⭐！
 
@@ -508,7 +508,7 @@ add chain=prerouting protocol=tcp layer7-protocol=gfw-domains action=add-dst-to-
 
 MIT License
 
-Copyright (c) 2026 YOUR_NAME
+Copyright (c) 2026 FelixBlaze
 
 本项目仅供学习和研究使用，请遵守当地法律法规。
 
