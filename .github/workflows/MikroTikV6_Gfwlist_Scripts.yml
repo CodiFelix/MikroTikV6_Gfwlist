@@ -1,10 +1,10 @@
 name: MikroTikV6 Gfwlist Scripts
 
-on:                                      # 触发方式：手动 & 定时
+on:
   workflow_dispatch:
   schedule:
-    - cron: '10 20 * * *'                  # 每天3点自动触发（UTC时间）
-
+    - cron: '10 20 * * *'
+    
 permissions:
   contents: write
 
