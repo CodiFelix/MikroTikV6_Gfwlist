@@ -1,6 +1,6 @@
 # MikroTik RouterOS v6 GFWList DNS 转发规则生成器
 
-🕒 自动更新计划：每日 04:10 UTC (北京时间 12:00) 自动执行更新脚本。
+🕒 自动更新计划：每日 20:10 UTC (北京时间 04:10) 自动执行更新脚本。
 
 自动从 GFWList 提取域名并生成 MikroTik RouterOS v6 DNS 静态转发规则脚本（使用正则表达式），实现智能分流和科学上网。
 
